@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: -webkit-linear-gradient(top, rgb(106, 156, 137) 0%, rgb(196, 218, 210) 100%);
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+
+.container{
+    width: 100%;
+    position: relative;
+    background: rgb(233, 239, 236);
+    max-width: 1000px;
+    min-height: 100%;
+    margin: 4em;
+    display: grid;
+    grid-template-columns: 1fr 2Fr;
+    box-shadow: 0 35px 55px rgb(179,185,196);
+}
+
+.name h3 {
+    font-size: 1.0rem;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center;
+    margin-top: 30px;
+    color: rgb(220,220,220);
+    padding-top: 1rem;
+    letter-spacing: 2px;
+}
+
+.name p{
+    font-size: 1.0rem;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center;
+    margin-top: 10px;
+    color: rgb(220,220,220);
+    padding-top: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.principal p{
+    font-size: 1.125rem;
+}
+
+/*////////////////////////////   COLUMN   ////////////////////////////////////*/
+
+.container .columna{
+    position: relative;
+    background: rgb(22, 66, 60);
+}
+
+
+.fotoCV {
+    background-image: url(ptofig.png); 
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%; 
+    margin: 50px auto 0 auto;
+}
+
+.about{
+    color: rgb(220,220,220);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+.about h2{
+    text-transform: uppercase;
+    
+}
+
+.contact{
+    padding: 4rem 2rem 2rem 2rem;
+    color: rgb(220,220,220);
+    margin-top: 10px;
+    padding-top: 0.1rem;
+}
+
+.contact h2{
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.contact ul{
+    list-style: none;
+    position: relative;
+}
+
+.contact ul .text{
+    text-decoration: none;
+    color:rgb(220,220,220);
+    display: inline-block;
+}
+
+.contact ul a:hover, ul a:focus{
+    text-decoration: none;
+    color:rgb(150,150,150);
+}
+
+.contact ul li{
+    position: relative;
+    padding-bottom: .75rem;
+    font-size: 15px;
+}
+
+.contact ul li .icon{
+    position: relative;
+    display: inline-block;
+    padding-right: .75rem;
+}
+
+.social{
+    color: rgb(220,220,220);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.social h3{
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.social ul{
+    list-style: none;
+    position: relative;
+    
+}
+
+.social ul li{
+    position: relative;
+}
+
+.social ul .text{
+    padding-bottom: .6rem;
+    color: rgb(220,220,220);
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.social ul a:hover, ul a:focus{
+    text-decoration: none;
+    color:rgb(150,150,150);
+}
+
+/*////////////////////////////   PRINCIPAL   ////////////////////////////////////*/
+
+.container .principal{
+    position: relative;
+    background: rgb(220,220,220);
+    padding: 16px;
+}
+
+.principal .About {
+    color: black;
+    padding: 1px;
+    margin-bottom: 10px;
+
+}
+
+.about h2 {
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-bottom: 9px;
+}
+
+.about h2 {
+    margin-top: 0.1rem;
+}
+
+.education h2{
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    margin-bottom: 1rem;
+}
+
+.education .bloque{
+    padding-bottom: 2rem;
+}
+
+.education .fecha, .education .titulo, .education .inst{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.education .inst{
+    font-weight: bold;
+}
+
+.principal .cursos{
+    padding-bottom: 3rem;
+}
+
+.cursos h3{
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    margin-bottom: 1rem;
+}
+
+.cursos .bloque{
+    padding-bottom: 2rem;
+}
+
+.cursos .fecha, .cursos .titulo, .cursos .inst{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.cursos .inst{
+    font-weight: bold;
+}
+
+.principal .idiomas{
+    padding-bottom: 3rem;
+}
+
+.idiomas h3{
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    margin-bottom: 1rem;
+}
+
+.idiomas .bloque{
+    padding-bottom: 1rem;
+}
+
+.idiomas .texto{
+    padding-bottom: 0.5rem;
+}
+
+.idiomas .inst{
+    font-weight: bold;
+}
+
+.objetivos h3{
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    margin-bottom: 1rem;
+}
+
+.objetivos .bloque{
+    padding-bottom: 1rem;
+}
+
+.objetivos .texto{
+    padding-bottom: 1rem;
+}
+
+/*///////////////////////////// RESPONSIVE ///////////////////////////*/
+
+@media (max-width: 1200px){
+
+    body{
+        display: unset;
+    }
+
+    .container{
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        margin-top: -1.15rem;
+        margin-bottom: -1.15rem;
+    }
+
+    .about, .contacto, .skills{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70%;
+    }
+
+    .about h3, .contacto h3, .skills h3{
+        margin-left: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .about .texto, .contacto li, .skills h3{
+        margin-bottom: 2rem;
+    }
+
+    .skills ul{
+        list-style: none;
+    }
+}
+
+
+
+/*////////////*/
+
+.section-titlep {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    padding-left: 0.1rem;
+    padding-right: 2rem;
+    
+  }
+  
+  .education__container
+   {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    
+  }
+  
+  .education__content
+  {
+    display: flex;
+    margin-bottom: 1.5rem;
+    color: black;
+    padding-left: 0.1rem;
+
+  }
+  
+  .education__time 
+  {
+    padding-right: 1rem;
+  }
+  
+  .education__rounder 
+  {
+    margin-top: 0.3rem;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: black;
+    border-radius: 50%;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+  }
+  
+  .education__line 
+  {
+    display: block;
+    width: 2px;
+    height: calc(100% + 1rem);
+    background-color: black;
+    transform: translate(7px, 0);
+    margin-bottom: 2rem;
+    padding-left: 0.1rem;
+  }
+  
+  .education__data {
+    flex-grow: 1;
+  }
+  
+  .education__title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .education__description {
+    font-size: 0.9rem;
+    margin: 0;  
+  }
+  
+  .education__content:last-child .education__line {
+    display: none;
+  }
+  
+  /*/////*/
+  .section-title {
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-align: left;
+      color: black;
+      padding-left: 0.1rem;
+      padding-right: 2rem;
+      }
+      
+      .experience__container
+      {
+      position: relative;
+      max-width: 600px;
+      margin: 0 auto;
+      }
+      
+      .experience__content
+      {
+      display: flex;
+      margin-bottom: 1.5rem;
+      color: black;
+      padding-left: 0.1rem;
+      padding-right: 2rem;
+    }
+    
+    .experience__time 
+    {
+      padding-right: 1rem;
+    }
+    
+    .experience__rounder 
+    {
+      margin-top: 0.3rem;
+      display: block;
+      width: 16px;
+      height: 16px;
+      background-color: black;
+      border-radius: 50%;
+      
+      
+    }
+    
+    .experience__line 
+    {
+      
+      width: 2px;
+      height: calc(100% + 1rem);
+      background-color: black;
+      transform: translate(7px, 0);
+      margin-bottom: 2rem;
+    }
+    
+    .experience__data {
+      flex-grow: 1;
+    }
+    
+    .experience__title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin: 0 0 0.25rem 0;
+    }
+    
+    .experience__description {
+      font-size: 0.9rem;
+      margin: 0;
+    }
+    
+    .experience__content:last-child .education__line {
+      display: none;
+    }
+  
